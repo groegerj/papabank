@@ -1,0 +1,15 @@
+[customer]
+
+name;Knopf;
+firstname;Jim;
+street;Am Bahnhof;
+number;1;
+zip;54321;
+town;Lummerland;
+
+[account]
+
+startingday;2017-01-01;
+weeklypayment;1.00;
+fourweekinterest;1.00;
+

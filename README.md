@@ -33,21 +33,32 @@ PREREQUISITES
 
 Debian packages:
 
-*) package perl-modules
-*) libdate-calc-perl
-*) libcurses-ui-perl
-*) texlive-latex-extra
-*) texlive-lang-german
+*  package perl-modules
+*  libdate-calc-perl
+*  libcurses-ui-perl
+*  texlive-latex-extra
+*  texlive-lang-german
 
 todo
 
 USAGE
 =====================================================================
 
-./papabank jimknopf
+First create directories:
+
+    mkdir -p accounts/jimknopf/statements
+    mkdir -p accounts/jimknopf/tmp
+    mkdir -p accounts/jimknopf/transactions
+
+Invoke the program by
+
+    ./papabank jimknopf
 
 replace jimknopf by any account name, for which you have created
-an according subdirectory of 'accounts'.
+an according subdirectory of 'accounts'. Every account needs a
+configuration file account.dat (to be written by hand) such as
+
+accounts/jimknopf/accounts.dat
 
 so far not internationalised but hardcoded in German language
 
